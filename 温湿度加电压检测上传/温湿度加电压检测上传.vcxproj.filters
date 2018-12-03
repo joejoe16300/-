@@ -17,5 +17,9 @@
   <ItemGroup>
     <None Include="温湿度加电压检测上传.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.温湿度加电压检测上传.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
