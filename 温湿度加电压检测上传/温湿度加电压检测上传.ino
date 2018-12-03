@@ -68,7 +68,7 @@ void postDataToOneNet(char* API_VALUE_temp, char* device_id_temp, char* sensor_i
 	packet.setHostAddress(OneNetServer);
 	packet.setDevId(device_id_temp);   //device_id
 	packet.setAccessKey(API_VALUE_temp);  //API_KEY
-	/*create the http message about add datapoint */
+	/*create the http message about add datapoint1 */
 	packet.createCmdPacket(POST, TYPE_DATAPOINT, p);
 	if (strlen(packet.content))
 		Serial.print(packet.content);
